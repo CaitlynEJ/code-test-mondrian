@@ -1,0 +1,70 @@
+body{
+    background-color: beige;
+}
+
+div{
+    border: 1px solid black;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.header{
+    border: none;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.wrap {
+    width: 600px;
+    height: 600px;
+    border: none;
+    position: relative;
+    margin: auto;
+}
+
+.white, .gray, .black, .blue, .yellow, .red {
+    position: absolute;
+}
+.white{
+    background-color: white;
+    
+}
+.gray{
+    background-color: #9996A1;
+}
+
+.black{
+    background-color: black;
+}
+
+.blue {
+    background-color: #202C57;
+}
+
+.red {
+    background-color: #AF332E;
+}
+
+.yellow {
+    background-color: #E2B933;
+}
+
+@media screen and (max-width: 599.98px){
+    h1 {
+        font-size: 20px;
+    }
+
+    .wrap {
+        width: 100%;
+        position: relative;
+    }
+
+    .white, .gray, .black, .blue, .yellow, .red {
+        position: static;
+        margin: 20px auto;
+    }
+}
